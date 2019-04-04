@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<title>Clarisse Galasso</title>
+		<link rel="stylesheet" href="style/style.css">
+		<link rel="stylesheet" media="screen and (max-width: 768px)" href="style/petiteresolution.css"/>
+		<link rel="icon" type="image/png" href="images/favicon.png"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+
+		<body>
+			<div id="conteneur">
+				<header>
+					<div id="logo">
+						<a href="index.html" title="Lien vers la page accueil"><img id="imagelogo" src="images/logo.svg"/></a><figcaption>©Clarisse Galasso</figcaption>
+						<h5>Clarisse Galasso</h5>
+					</div>
+
+					<nav>
+						<ul>
+							<li><a href="informations.html" title="Lien À Propos">À Propos</a></li>
+							<li><a href="index.html" title="Lien vers Design Graphique">Design Graphique</a></li>
+							<li><a href="imprimes.html" title="Lien vers Imprimés">Imprimés</a></li>
+							<li><a href="supportsnum.html" title="Lien vers Supports Numériques">Numériques</a></li>
+							<li><a href="illustrations.html" title="Lien vers Illustrations">Illustrations</a></li>
+							
+						</ul>
+					</nav>
+				</header>
+
+				<section>
+					<div id="boitetexte">
+						<h1 id="titreprojets">COSMÉLAB</h1>
+						<p id="texteprojets"><br><br>Installation interactive en partenariat avec le Centre Pompidou de Paris à l'occasion de la "Fête du code créatif" en mars 2019. Le projet est réalisé grâce à Processing et a pour but de faire découvrir et initier le jeune public au code créatif. Cosmélab est un laboratoire de maquillage, où l'on peut modifier à sa guise la couleur, la texture et la luminosité du liquide de cosmétique. Les enfants peuvent s'amuser à ajouter des substances grâce au clavier et de voir les modifications en direct sur la projection.<br><br>Projet réalisé en collaboration avec Lucas Gallo et Amélie Cordier.</p>
+					</div>
+				</section>
+
+				<section>
+					<div id="boite">
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/cosm_1.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/cosm_2.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/cosm_3.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/cosm_4.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/cosm_5.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/cosm_6.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/cosm_7.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/cosm_8.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/cosmlivre.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+	
+
+						<button id="boutongauche" onclick="plusDivs(-1)">&#10094;</button>
+						<button id="boutondroit" onclick="plusDivs(1)">&#10095;</button>
+
+					</div>
+
+					<script>
+					var slideIndex = 1;
+					showDivs(slideIndex);
+
+					function plusDivs(n) {
+  					showDivs(slideIndex += n);
+					}
+
+					function showDivs(n) {
+  					var i;
+ 					var x = document.getElementsByClassName("mySlides");
+  					if (n > x.length) {slideIndex = 1}
+  					if (n < 1) {slideIndex = x.length}
+  					for (i = 0; i < x.length; i++) {
+     				x[i].style.display = "none";  
+  					}
+  					x[slideIndex-1].style.display = "block";  
+					}
+					</script>
+
+				</section>
+
+				<section>
+					<div id="boite2">
+						<article id="projetprecedent">
+							<a href="memoire.html" title="Lien vers Mémoire"><img src="images/p15.jpg"></a>
+							<p><br>Projet précédent</p>	
+						</article>
+
+						<article id="projetsuivant">
+							<a href="chroniquesmartiennes.html" title="Lien vers Chroniques Martiennes"><img src="images/p1.jpg"></a>
+							<p><br>Projet suivant</p>	
+						</article>
+					</div>
+				</section>
+
+				<footer>
+				<p>Code & Design Clarisse Galasso© - 2019</p>				
+				</footer>
+
+			</div>
+
+
+	</body>
+
+</html>
