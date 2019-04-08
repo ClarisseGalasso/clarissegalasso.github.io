@@ -1,0 +1,508 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/********************************************** CSS ****************************************/
+
+
+
+/********************************************** INDEX ****************************************/
+
+body{
+	/*background-color: #f1edec;*/
+	background-color:#F8F8FF;
+	width:100%;
+}
+
+#conteneur{
+	width:100%;
+	height: auto;
+	margin:auto;
+/*	border : 1px solid black;*/
+	background-color: white;
+}
+
+header{
+	width:100%;
+	background-color: white;
+	padding-top: 5px;
+/*	border : 1px solid black;*/
+}
+
+#logo{
+	width : 100%;
+	height: 100px;
+	margin:30px auto;
+	background-color: white;
+/*	border : 1px solid black;*/
+
+}
+
+#imagelogo{
+	margin: auto;
+	/*border : 1px solid black;*/
+	display:block;
+	width:85px;
+	height:85px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+h5{
+	font-size: 1em;
+	text-align: center;
+	margin-top:3%;
+	font-family: didot, serif;
+}
+
+nav{
+/*	width: 75%;*/
+	height: 25px;
+	margin:15% auto;
+	background-color: white;
+	/*border : 1px solid black;*/
+	padding: 10px;
+
+}
+
+ul{
+	flex-direction: column;
+	/*border : 1px solid black;*/
+}
+
+
+li{
+	width: 100%;
+	height: 20px;
+/*	display:inline-block;*/
+	background-color: white;
+	/*border : 1px solid black;*/
+	margin :3% auto;
+	text-align: center;
+	font-family: didot, serif; 
+
+
+}
+
+#principale{
+	width: 70%;
+	height: 300px;
+	flex-direction: column;
+/*	border : 1px solid black;*/
+	margin: 50% auto;
+	opacity: 100%;
+}
+
+
+#secondaire{
+width:70%;
+height:200px;
+margin:auto;
+}
+
+#bloc{
+	width : 300px;
+	height: 200px;
+	margin: 65% auto;
+	background-color: white;
+}
+
+#bloc img{
+	width : 300px;
+	height: 150px;
+
+}
+
+article{
+	width : 300px;
+	height: 300px;
+	margin: auto;
+	background-color: white;
+	/*border : 3px solid black;*/
+	padding-bottom: 25%;
+}
+
+/*PROJETS PAGE INDEX*/
+
+#projet1{
+	width:300px;
+	height:300px;
+	opacity: 1;
+}
+
+#projet1:hover{
+	opacity: 0.6;
+}
+
+#projet2{
+	width:300px;
+	height:300px;
+	opacity: 1;
+}
+
+#projet2:hover{
+	opacity: 0.6;
+}
+
+#projet3{
+	width:650px;
+	height:200px;
+	opacity: 1;
+}
+
+#projet3:hover{
+	opacity: 0.6;
+}
+
+#projet4{
+	width:300px;
+	height:300px;
+	opacity: 1;
+}
+
+#projet4:hover{
+	opacity: 0.6;
+}
+
+#projet5{
+	width:300px;
+	height:300px;
+	opacity: 1;
+}
+
+#projet5:hover{
+	opacity: 0.6;
+}
+
+#projet6{
+	width:650px;
+	height:200px;
+	opacity: 1;
+}
+
+#projet6:hover{
+	opacity: 0.6;
+}
+
+#projet7{
+	width:300px;
+	height:300px;
+	opacity: 1;
+}
+
+#projet7:hover{
+	opacity: 0.6;
+}
+
+
+#projet8{
+	width:300px;
+	height:300px;
+	opacity: 1;
+}
+
+#projet8:hover{
+	opacity: 0.6;
+}
+
+#projet9{
+	width:300px;
+	height:300px;
+	opacity: 1;
+}
+
+#projet9:hover{
+	opacity: 0.6;
+}
+
+#projet10{
+	width:650px;
+	height:200px;
+	opacity: 1;
+}
+
+#projet10:hover{
+	opacity: 0.6;
+}
+
+
+#projet11{
+	width:650px;
+	height:200px;
+	opacity: 1;
+}
+
+#projet11:hover{
+	opacity: 0.6;
+}
+
+#projet12{
+	width:300px;
+	height:300px;
+	opacity: 1;
+}
+
+#projet12:hover{
+	opacity: 0.6;
+}
+
+#projet13{
+	width:300px;
+	height:300px;
+	opacity: 1;
+}
+
+#projet13:hover{
+	opacity: 0.6;
+}
+
+footer{
+	width : 100%;
+	height: 50px;
+	/*border: 1px solid black;*/
+	margin:20% auto;
+
+}
+
+footer p{
+	padding-top: 45%;
+}
+
+
+figcaption{
+	display: none;
+}
+
+a{
+	color : grey;
+	text-decoration: none;
+	opacity:1;
+
+}
+
+a:hover{
+	opacity:0.6;
+}
+
+
+p{
+	text-align: center;
+	font-family: avenir, sans-serif;
+	font-size: 0.7em;
+}
+
+
+
+/*IMFORMATIONS - À PROPOS*/
+
+#maphoto{
+	margin:50% auto;
+	margin-left: -35px;
+	margin-bottom: 10%;
+}
+
+#presentation{
+	margin:auto;
+	width:50%;
+	text-align: center;
+	/*border: 1px solid pink;*/
+}
+
+#formation{
+	margin:10% auto;
+	width:50%;
+	text-align: center;
+	/*border: 1px solid pink;*/
+}
+
+#competence{
+	margin:10% auto;
+	width:50%;
+	text-align: center;
+	/*border: 1px solid pink;*/
+}
+
+#partenariat{
+	margin:10% auto;
+	width:30%;
+	text-align: center;
+	/*border: 1px solid pink;*/
+}
+
+#pinfosp{
+	text-align: center;
+	line-height:1.2em;
+	font-size: 0.9em;
+	color:grey;
+}
+
+#pinfos{
+	text-align: center;
+	line-height:1.2em;
+	font-size: 0.8em;
+	color:grey;
+}
+
+h1{
+	text-align: center;
+	/*margin-top: 10px;*/
+	font-family: avenir, sans-serif;
+	font-size: 1.1em;
+	line-height:1.2em;
+}
+
+h2{
+	margin-top: 20px;
+	font-family: avenir, sans-serif;
+	font-size: 0.9em;
+	line-height:1.2em;
+}
+
+h3{
+	margin-top: 20px;
+	font-family: avenir, sans-serif;
+	font-size: 0.8em;
+	line-height:1.2em;
+}
+
+h4{
+/*	margin-top: 10px;*/
+	font-family: avenir, sans-serif;
+	font-size: 0.8em;
+	line-height:1.2em;
+}
+
+
+/* PROJETS */
+
+#titreprojets{
+	padding-top: 80%;
+	font-family: avenir, sans-serif;
+	font-size: 1.5em;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+#boitetexte{
+/*	border: 1px solid black;*/
+	width:50%;
+	margin: 10%auto;
+}
+
+#boite{
+	margin-top: 45px;
+/*	border: 1px solid black;*/
+}
+
+
+.mySlides{
+	width: 455px;
+	height: 295px;
+	margin:auto;
+/*	border: 1px solid black*/
+}
+
+.imagescarousel{
+	width:455px;
+	height: 295px;
+/*	border: 1px solid black*/
+}
+
+button{
+	margin-top: 10px;
+/*	margin-left:32%;*/
+	background-color: black; 
+  	color: white;
+}
+
+
+#texteprojets{
+/*	border: 1px solid black;*/
+	margin: auto;	
+	text-align: center;
+	line-height:1.2em;
+	font-size: 0.9em;
+
+}
+
+#boite2{
+	flex-direction: column;
+/*	border: 1px solid black;*/
+	width:50%;
+	margin:10% auto;
+}
+
+#projetprecedent{
+	width:200px;
+	height:50px;
+}
+
+#projetsuivant{
+	width:200px;
+	height:50px;
+}
+
+
+iframe{
+	margin-left: 18%;
+	margin-top: -10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
