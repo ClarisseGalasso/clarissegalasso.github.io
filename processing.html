@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<title>Clarisse Galasso</title>
+		<link rel="stylesheet" href="style/style.css">
+		<link rel="stylesheet" media="screen and (max-width: 768px)" href="style/petiteresolution.css"/>
+		<link rel="icon" type="image/png" href="images/favicon.png"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+
+		<body>
+			<div id="conteneur">
+				<header>
+					<div id="logo">
+						<a href="index.html" title="Lien vers la page accueil"><img id="imagelogo" src="images/logo.svg"/></a><figcaption>©Clarisse Galasso</figcaption>
+						<h5>Clarisse Galasso</h5>
+					</div>
+
+					<nav>
+						<ul>
+							<li><a href="informations.html" title="Lien À Propos">À Propos</a></li>
+							<li><a href="index.html" title="Lien vers Design Graphique">Design Graphique</a></li>
+							<li><a href="imprimes.html" title="Lien vers Imprimés">Imprimés</a></li>
+							<li><a href="supportsnum.html" title="Lien vers Supports Numériques">Numériques</a></li>
+							<li><a href="illustrations.html" title="Lien vers Illustrations">Illustrations</a></li>
+							
+						</ul>
+					</nav>
+				</header>
+
+				<section>
+					<div id="boitetexte">
+						<h1 id="titreprojets">PIXEL COLORS</h1>
+						<h6>INSTALLATION INTERACTIVE</h6>
+						<p id="texteprojets"><br><br>Le projet consiste à transposer un signal analogique en une forme avec une installation animée (réalisée avec le logiciel Processing). La webcam de l'ordinateur capte les mouvements des corps humains ainsi que les couleurs de l’environnement dans lequel ils évoluent pour les traduire sur écran par des carrés qui changent de couleur en fonction des mouvements. Le but est de réaliser un tableau coloré, animé, digital et interactif en temps réel grâce aux captations de la webcam.<br><br>
+
+						Le tableau interactif est composé de carrés basés sur l’idée de pixellisation afin d’abstraire le physique des spectateurs pour juste en retirer les couleurs principales qui s'en dégagent. Il se renouvelle au passage de chaque personne et, de ce fait, chaque tableau est unique et éphémère.<br><br>Projet réalisé en collaboration avec Julie Gohier.
+</p>
+					</div>
+				</section>
+
+				<section>
+					<div id="boite">
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/pix1.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/pix2.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+
+
+						<button id="boutongauche" onclick="plusDivs(-1)">&#10094;</button>
+						<button id="boutondroit" onclick="plusDivs(1)">&#10095;</button>
+
+					</div>
+
+					<script>
+					var slideIndex = 1;
+					showDivs(slideIndex);
+
+					function plusDivs(n) {
+  					showDivs(slideIndex += n);
+					}
+
+					function showDivs(n) {
+  					var i;
+ 					var x = document.getElementsByClassName("mySlides");
+  					if (n > x.length) {slideIndex = 1}
+  					if (n < 1) {slideIndex = x.length}
+  					for (i = 0; i < x.length; i++) {
+     				x[i].style.display = "none";  
+  					}
+  					x[slideIndex-1].style.display = "block";  
+					}
+					</script>
+
+				</section>
+
+				<section>
+					<div id="boite2">
+						<article id="projetprecedent">
+							<a href="rapportstage.html" title="Lien vers mon rapport de stage"><img src="images/p13.jpg"></a>
+							<p><br>Projet précédent</p>	
+						</article>
+
+						<article id="projetsuivant">
+							<a href="affichescities.html" title="Lien vers Affiches Cities"><img src="images/p12.jpg"></a>
+							<p><br>Projet suivant</p>	
+						</article>
+					</div>
+				</section>
+
+				<footer>
+				<p>Code & Design par Clarisse Galasso - 2019</p>			
+				</footer>
+
+			</div>
+
+
+	</body>
+
+</html>
