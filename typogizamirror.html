@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<title>Clarisse Galasso</title>
+		<link rel="stylesheet" href="style/style.css">
+		<link rel="stylesheet" media="screen and (max-width: 768px)" href="style/petiteresolution.css"/>
+		<link rel="icon" type="image/png" href="images/favicon.png"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+
+		<body>
+			<div id="conteneur">
+				<header>
+					<div id="logo">
+						<a href="index.html" title="Lien vers la page accueil"><img id="imagelogo" src="images/logo.svg"/></a><figcaption>©Clarisse Galasso</figcaption>
+						<h5>Clarisse Galasso</h5>
+					</div>
+
+					<nav>
+						<ul>
+							<li><a href="informations.html" title="Lien À Propos">À PROPOS</a></li>
+							<li><a href="index.html" title="Lien vers Design Graphique">DESIGN GRAPHIQUE</a></li>
+							<li><a href="imprimes.html" title="Lien vers Imprimés">PRINT</a></li>
+							<li><a href="supportsnum.html" title="Lien vers Supports Numériques">NUMÉRIQUE</a></li>
+							<li><a href="illustrations.html" title="Lien vers Illustrations">ILLUSTRATIONS</a></li>
+							
+						</ul>
+					</nav>
+				</header>
+
+				<section>
+					<div id="boitetexte">
+						<h1 id="titreprojets">GIZA MIRROR</h1>
+						<h6>SPÉCIMEN TYPOGRAPHIQUE</h6>
+						<p id="texteprojets"><br><br>Cette typographie a été réalisée à partir du thème de l'erreur.<br>Basée sur la police de caractères Giza Stencil Pro, les associations et superpositions des lettres créent une nouvelle typographie qui s'apparente à des sigles où l'on perd la notion de lisibilité. Ces dingbats mènent le lecteur à s'interroger sur la signification et à confondre certaines lettres.<br>Une affiche spécimen a ensuite été créée : le G est ici choisi pour rappeler l'esthétique ornementale.</p>
+					</div>
+				</section>
+
+				<section>
+					<div id="boite">
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/typo1.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/typo2.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/s1.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/s2.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/s3.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/s4.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+
+
+						<button id="boutongauche" onclick="plusDivs(-1)">&#10094;</button>
+						<button id="boutondroit" onclick="plusDivs(1)">&#10095;</button>
+
+					</div>
+
+					<script>
+					var slideIndex = 1;
+					showDivs(slideIndex);
+					function plusDivs(n) {
+  					showDivs(slideIndex += n);
+					}
+					function showDivs(n) {
+  					var i;
+ 					var x = document.getElementsByClassName("mySlides");
+  					if (n > x.length) {slideIndex = 1}
+  					if (n < 1) {slideIndex = x.length}
+  					for (i = 0; i < x.length; i++) {
+     				x[i].style.display = "none";  
+  					}
+  					x[slideIndex-1].style.display = "block";  
+					}
+					</script>
+
+				</section>
+
+				<section>
+					<div id="boite2">
+						<article id="projetprecedent">
+							<a href="theconversation.html" title=""><p>Projet précédent</p></a>
+							
+						</article>
+
+						<article id="projetsuivant">
+							<a href="susurrer.html" title=""><p>Projet suivant</p></a>
+							
+						</article>
+					</div>
+				</section>
+
+				<footer>
+				<p>Code & Design par Clarisse Galasso - 2019</p>			
+				</footer>
+
+			</div>
+
+
+	</body>
+
+</html>
