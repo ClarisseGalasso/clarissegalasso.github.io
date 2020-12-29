@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<title>Clarisse Galasso</title>
+		<link rel="stylesheet" href="style/style.css">
+		<link rel="stylesheet" media="screen and (max-width: 768px)" href="style/petiteresolution.css"/>
+		<link rel="icon" type="image/png" href="images/favicon.png"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+
+
+		<body>
+			<div id="conteneur">
+				<header>
+					<div id="logo">
+						<a href="index.html" title="Lien vers la page accueil"><img id="imagelogo" src="images/logo.svg"/></a><figcaption>©Clarisse Galasso</figcaption>
+						<h5>Clarisse Galasso</h5>
+					</div>
+
+					<nav>
+						<ul>
+							<li><a href="informations.html" title="Lien À Propos">À PROPOS</a></li>
+							<li><a href="index.html" title="Lien vers Design Graphique">DESIGN GRAPHIQUE</a></li>
+							<li><a href="imprimes.html" title="Lien vers Imprimés">PRINT</a></li>
+							<li><a href="supportsnum.html" title="Lien vers Supports Numériques">NUMÉRIQUE</a></li>
+							<li><a href="illustrations.html" title="Lien vers Illustrations">ILLUSTRATIONS</a></li>
+							
+						</ul>
+					</nav>
+				</header>
+
+				<section>
+					<div id="boitetexte">
+						<h1 id="titreprojets">ART, GRAPHISME ET MODE</h1>
+						<h6>ÉDITION</h6>
+						<p id="texteprojets"><br><br>Mon mémoire de seconde année de BTS aborde les relations entre art, graphisme et mode, trois domaines indissociables. J’ai voulu démontrer que le graphisme ne vit pas exclusivement grâce au support imprimé ou numérique, mais aussi grâce au support textile. Cette réflexion se base ainsi sur des motifs anciens qui se retrouvent dans la mode haute couture actuelle, mais aussi sur les collaborations entre artistes, graphistes et stylistes.</p>
+					</div>
+				</section>
+
+				<section>
+					<div id="boite">
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/mem_1.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/mem_2.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/mem_3.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/mem_4.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/mem_5.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/mem_6.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/mem_7.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+						<div class="mySlides">
+  							<img class="imagescarousel" src="images/mem_8.jpg">
+  							<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black"></div>
+						</div>
+
+
+
+
+
+
+
+						<button id="boutongauche" onclick="plusDivs(-1)">&#10094;</button>
+						<button id="boutondroit" onclick="plusDivs(1)">&#10095;</button>
+
+					</div>
+
+					<script>
+					var slideIndex = 1;
+					showDivs(slideIndex);
+					function plusDivs(n) {
+  					showDivs(slideIndex += n);
+					}
+					function showDivs(n) {
+  					var i;
+ 					var x = document.getElementsByClassName("mySlides");
+  					if (n > x.length) {slideIndex = 1}
+  					if (n < 1) {slideIndex = x.length}
+  					for (i = 0; i < x.length; i++) {
+     				x[i].style.display = "none";  
+  					}
+  					x[slideIndex-1].style.display = "block";  
+					}
+					</script>
+
+				</section>
+
+				<section>
+					<div id="boite2">
+						<article id="projetprecedent">
+							<a href="projetpro.html" title=""><p>Projet précédent</p></a>
+							
+						</article>
+
+						<article id="projetsuivant">
+							<a href="cosmelab.html" title=""><p>Projet suivant</p></a>
+							
+						</article>
+					</div>
+				</section>
+
+				<footer>
+				<p>Code & Design par Clarisse Galasso - 2019</p>			
+				</footer>
+
+			</div>
+
+
+	</body>
+
+</html>
